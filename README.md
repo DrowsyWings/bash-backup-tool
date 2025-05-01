@@ -13,3 +13,12 @@ A simple, rsync-based backup script with logging and dry-run
 
 ```bash
 ./backup.sh <source_dir> <target_dir> [--real-run]
+```
+
+## Options
+
+| Option       | Description                                                                      |
+| ------------ | -------------------------------------------------------------------------------- |
+| `--real-run` | Disables dry-run mode. Files will actually be copied/deleted.                    |
+| _(none)_     | Default is dry-run mode. Shows what changes would be made without applying them. |
+
